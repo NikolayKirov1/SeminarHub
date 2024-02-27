@@ -54,7 +54,7 @@ namespace SeminarHub
                 pattern: "{controller=Home}/{action=Index}/{id?}");
             app.MapRazorPages();
 
-            await app.RunAsync();
+            app.Run();
         }
     }
 }
